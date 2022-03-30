@@ -8,19 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		230548B627F33F6400B9B60E /* SimpleHTTPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230548B527F33F6400B9B60E /* SimpleHTTPApp.swift */; };
-		230548B827F33F6400B9B60E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230548B727F33F6400B9B60E /* ContentView.swift */; };
 		230548BA27F33F6600B9B60E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 230548B927F33F6600B9B60E /* Assets.xcassets */; };
 		230548BD27F33F6600B9B60E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 230548BC27F33F6600B9B60E /* Preview Assets.xcassets */; };
-		230548C427F3402300B9B60E /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230548C327F3402300B9B60E /* Books.swift */; };
+		230548C427F3402300B9B60E /* Fruits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230548C327F3402300B9B60E /* Fruits.swift */; };
+		230548C627F3598100B9B60E /* CopyrightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230548C527F3598100B9B60E /* CopyrightView.swift */; };
+		230548C827F365E400B9B60E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230548C727F365E400B9B60E /* ContentView.swift */; };
+		230548CA27F4FF9A00B9B60E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230548C927F4FF9A00B9B60E /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		230548B227F33F6400B9B60E /* SimpleHTTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleHTTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		230548B527F33F6400B9B60E /* SimpleHTTPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleHTTPApp.swift; sourceTree = "<group>"; };
-		230548B727F33F6400B9B60E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		230548B927F33F6600B9B60E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		230548BC27F33F6600B9B60E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		230548C327F3402300B9B60E /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
+		230548C327F3402300B9B60E /* Fruits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruits.swift; sourceTree = "<group>"; };
+		230548C527F3598100B9B60E /* CopyrightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyrightView.swift; sourceTree = "<group>"; };
+		230548C727F365E400B9B60E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		230548C927F4FF9A00B9B60E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				230548B527F33F6400B9B60E /* SimpleHTTPApp.swift */,
-				230548B727F33F6400B9B60E /* ContentView.swift */,
 				230548B927F33F6600B9B60E /* Assets.xcassets */,
 				230548BB27F33F6600B9B60E /* Preview Content */,
-				230548C327F3402300B9B60E /* Books.swift */,
+				230548C327F3402300B9B60E /* Fruits.swift */,
+				230548C727F365E400B9B60E /* ContentView.swift */,
+				230548C527F3598100B9B60E /* CopyrightView.swift */,
+				230548C927F4FF9A00B9B60E /* Extensions.swift */,
 			);
 			path = SimpleHTTP;
 			sourceTree = "<group>";
@@ -140,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				230548C427F3402300B9B60E /* Books.swift in Sources */,
-				230548B827F33F6400B9B60E /* ContentView.swift in Sources */,
+				230548CA27F4FF9A00B9B60E /* Extensions.swift in Sources */,
+				230548C827F365E400B9B60E /* ContentView.swift in Sources */,
+				230548C427F3402300B9B60E /* Fruits.swift in Sources */,
+				230548C627F3598100B9B60E /* CopyrightView.swift in Sources */,
 				230548B627F33F6400B9B60E /* SimpleHTTPApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
